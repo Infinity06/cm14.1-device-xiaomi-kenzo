@@ -30,6 +30,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26838785024 # 26838801408 - 16384
 
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_kenzo_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8956
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
